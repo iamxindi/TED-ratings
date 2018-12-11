@@ -46,15 +46,15 @@
             <br> Neutral: OK, Jaw-dropping
             <p> By looking into the total of votes for each rating, we found that <b>Inspiring</b>, <b>Informative</b>, and <b>Fascinating</b> have been frequently used in general, while the negative ones have been less present. Then, we identified the "Main Rating" of each talk (on which a talk has received the highest votes) and visualized the distribution of these main ratings. It reveals the same pattern as total votes.</p>
         </div>
-     <!-- <div class="seven columns offset-by-two question">     
+     <!-- <div class="seven columns offset-by-two question">
     </div> -->
 
     <div class="ten columns offset-by-one alpha">
             <div class="one-half column">
-                    <img src="img/bar1.png" class= "bar-one" alt="bar-sum" height="400px"> 
+                    <img src="img/bar1.png" class= "bar-one" alt="bar-sum" height="400px">
             </div>
             <div class="one-half column">
-                    <img src="img/bar2.png" class= "bar-two" alt="bar-main" height="400px"> 
+                    <img src="img/bar2.png" class= "bar-two" alt="bar-main" height="400px">
             </div>
         </div>
 
@@ -67,13 +67,13 @@
                 <p> Below you can select a specific topic relevant to your areas of expertise to get the top 5 talks falling under the topic. You can see the essential information (e.g. title, speaker, views, link) of the most-viewed talks, and get a sense of how did audience say about each talk. We found that ...... </p>
             </div>
             <div class="ten columns offset-by-one questions" id="container1"></div>
-                  
+
                     <div class="outside">
                     <div id="list"></div>
-                    </div>  
-                  
-          
-          
+                    </div>
+
+
+
     </div>
 
 
@@ -83,16 +83,16 @@
                 <p> Talks with a higher votes on Inspiring, Fascinating, and Informative tend to have a higher number of views, while talks which rated higher on Confusing, Jaw-dropping and Funny don't necessarily guarantee a higher views.</p>
             </div>
             <div class="six columns offset-by-four">
-                    <img src="img/cor.png" class= "heatmap" alt="bar-sum" height="500px"> 
+                    <img src="img/cor.png" class= "heatmap" alt="bar-sum" height="500px">
             </div>
-    
+
     </div>
 
 
 
     <div class="scatter">
-        
-       <div class="ten columns offset-by-one alpha"> 
+
+       <div class="ten columns offset-by-one alpha">
        <h3>IV. Bivariate Scatter Plot</h3>
        <p> TED talks are influential videos from expert speakers on technology, entertainment, design, science, business and a variety of topics, with subtitles in over 100 languages. On TED's official website, audience can review and see ratings for each talk. In this information visualization project, we have analyzed a dataset of 2550 TED talks and gotten some insights on how does the rating system work and the relation between a talk's views and ratings. </p>
        </div>
@@ -108,7 +108,7 @@
                 <p>Descriptions here. </p>
             </div>
          </div>
-            
+
          <div class="ten columns offset-by-one alpha">
                 <!-- <div class="one-half column question" id="divScatter1">
                     <svg width="95%" height="95%" id="scatterTransition1">
@@ -121,10 +121,10 @@
                  -->
 
             <div class="one-half column">
-                    <img src="img/scatter1.png" class= "bar-one" alt="bar-sum" height="400px"> 
+                    <img src="img/scatter1.png" class= "bar-one" alt="bar-sum" height="400px">
             </div>
             <div class="one-half column">
-                    <img src="img/scatter2.png" class= "bar-two" alt="bar-main" height="400px"> 
+                    <img src="img/scatter2.png" class= "bar-two" alt="bar-main" height="400px">
             </div>
             </div>
         </div>
@@ -134,6 +134,40 @@
             <div class="six columns offset-by-three alpha">
                 <h5>Compare two ratings</h5>
                 <p>Descriptions here. </p>
+              <p>X Axis</p>
+                <select id="xaxis">
+              <option value="beautiful">Beautiful</option>
+              <option value="confusing">Confusing</option>
+              <option value="courageous">Courageous</option>
+              <option value="fascinating">Fascinating</option>
+              <option value="funny">Funny</option>
+              <option value="informative">Informative</option>
+              <option value="ingenious">Ingenious</option>
+              <option value="inspiring">Inspiring</option>
+              <option value="jaw.dropping">Jaw dropping</option>
+              <option value="longwinded">Longwinded</option>
+              <option value="ok">OK</option>
+              <option value="obnoxious">Obnoxious</option>
+              <option value="persuasive">Persuasive</option>
+              <option value="unconvincing">Unconvincing</option>
+            </select>
+            <p>Y Axis</p>
+            <select>
+              <option value="beautiful">Beautiful</option>
+              <option value="confusing">Confusing</option>
+              <option value="courageous">Courageous</option>
+              <option value="fascinating">Fascinating</option>
+              <option value="funny">Funny</option>
+              <option value="informative">Informative</option>
+              <option value="ingenious">Ingenious</option>
+              <option value="inspiring">Inspiring</option>
+              <option value="jaw.dropping">Jaw dropping</option>
+              <option value="longwinded">Longwinded</option>
+              <option value="ok">OK</option>
+              <option value="obnoxious">Obnoxious</option>
+              <option value="persuasive">Persuasive</option>
+              <option value="unconvincing">Unconvincing</option>
+          </select id="yaxis">
             </div>
             <div class="six columns offset-by-three alpha question" id="divScatter3">
                 <svg width="95%" height="95%" id="scatterTransition3"></svg>
@@ -172,8 +206,8 @@
 
 
 <footer class="twelve columns"  style="background-color: black; color:#fafafa; text-align: center; padding: 0.5em; font-size: 14px; ">
-   <a href="https://github.com/pansyjia/TED-ratings" class="githubRepo"  style="color: #fafafa; font-size: 14px; ">Github Repository of the Project</a>   
+   <a href="https://github.com/pansyjia/TED-ratings" class="githubRepo"  style="color: #fafafa; font-size: 14px; ">Github Repository of the Project</a>
     <br>
-    <div class="copyright" style="color: #fafafa; font-size: 14px; "> &copy 2018 All Rights Reserved </div>  
+    <div class="copyright" style="color: #fafafa; font-size: 14px; "> &copy 2018 All Rights Reserved </div>
 </footer>
 </html>
